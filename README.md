@@ -58,8 +58,7 @@ Enhances visibility of individual cards:
 4. Gaussian blur  
 5. Otsu thresholding
 
-<img src="report/img/Process_Unprocessed_Card.png" width="20%">
-<img src="report/img/Process_Processed_Card.png" width="20%">
+<img src="report/img/Process_Unprocessed_Card.png" width="20%"> <img src="report/img/Process_Processed_Card.png" width="20%">
 
 ---
 
@@ -69,8 +68,7 @@ Enhances visibility of individual cards:
 - Card corners are identified using local maxima and geometric extremes.
 - Output: quadrilaterals representing detected cards.
 
-![Card Shape Recognition](report/img/Process_LocalMaxima.png)
-
+<img src="report/img/Process_LocalMaxima.png" width="80%">
 ---
 
 ## Card Value Recognition
@@ -88,7 +86,7 @@ Enhances visibility of individual cards:
   - "Card Characters Font" for other values (A, J, Q, K, 2–9)
 - Each character rendered on a white canvas and augmented.
 
-<img src="report/img/K_generated.png" width="13%"> <img src="report/img/Q_generated.png" width="13%"> <img src="report/img/3_generated.png" width="13%">
+<img src="report/img/K_generated.png" width="15%"> <img src="report/img/Q_generated.png" width="15%"> <img src="report/img/3_generated.png" width="15%">
 
 ### Convolutional Neural Network
 - **Feature Extractor:** 3 Conv layers with ReLU + MaxPooling  
