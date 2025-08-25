@@ -88,7 +88,7 @@ Enhances visibility of individual cards:
 - Each character rendered on a white canvas and augmented.
 
 <img src="report/img/cards_values.png" width="100%">
-<img src="report/img/K_generated.png" width="15%"> <img src="report/img/Q_generated.png" width="15%"> <img src="report/img/3_generated.png" width="15%">
+<img src="report/img/K_generated.png" width="13%"> <img src="report/img/Q_generated.png" width="13%"> <img src="report/img/3_generated.png" width="13%">
 
 ### Convolutional Neural Network
 - **Feature Extractor:** 3 Conv layers with ReLU + MaxPooling  
