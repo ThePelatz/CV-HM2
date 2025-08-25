@@ -82,12 +82,12 @@ Enhances visibility of individual cards:
 <img src="report/img/K_patch.png" width="15%"> <img src="report/img/Q_patch.png" width="15%"> <img src="report/img/3_patch.png" width="15%">
 
 ### Font and Dataset Generation
+<img src="report/img/cards_values.png" width="100%">
 - Synthetic dataset created using:
   - "Khepri font" for **10**
   - "Card Characters Font" for other values (A, J, Q, K, 2–9)
 - Each character rendered on a white canvas and augmented.
 
-<img src="report/img/cards_values.png" width="100%">
 <img src="report/img/K_generated.png" width="13%"> <img src="report/img/Q_generated.png" width="13%"> <img src="report/img/3_generated.png" width="13%">
 
 ### Convolutional Neural Network
