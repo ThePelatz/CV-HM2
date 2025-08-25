@@ -1,5 +1,11 @@
 # Counting Card System for Blackjack
 
+
+**Collaborators:**  
+- Zoren Martinez
+- Francesco Pivotto
+- Davide Baggio  
+
 This project implements a **Computer Vision-based system for automatic card recognition** in blackjack games. The main goal is to assist in detecting card counting activities by analyzing video frames in real-time.
 
 ![Example Frame](report/img/view_example.png)
