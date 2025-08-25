@@ -2,7 +2,7 @@
 
 This project implements a **Computer Vision-based system for automatic card recognition** in blackjack games. The main goal is to assist in detecting card counting activities by analyzing video frames in real-time.
 
-![Example Frame](./img/view_example.png)
+![Example Frame](report/img/view_example.png)
 
 ---
 
@@ -55,10 +55,10 @@ Steps to detect card positions in frames:
 3. **Contour detection and filling:** Identify connected components and fill them.  
 4. **Morphological erosion:** Smooth contours and remove noise.
 
-![Preprocessing Steps](./img/Preprocess_WMask.png)
-![Dilation](./img/Prepocess_Dilatation.png)
-![Filling](./img/Preprocess_FillPoly.png)
-![Erosion](./img/Preprocess_Erosion.png)
+![Preprocessing Steps](report/img/Preprocess_WMask.png)
+![Dilation](report/img/Prepocess_Dilatation.png)
+![Filling](report/img/Preprocess_FillPoly.png)
+![Erosion](report/img/Preprocess_Erosion.png)
 
 ### Individual Card Preprocessing
 Enhances visibility of individual cards:
@@ -69,8 +69,8 @@ Enhances visibility of individual cards:
 4. Gaussian blur  
 5. Otsu thresholding
 
-![Card Before](./img/Process_Unprocessed_Card.png)
-![Card After](./img/Process_Processed_Card.png)
+![Card Before](report/img/Process_Unprocessed_Card.png)
+![Card After](report/img/Process_Processed_Card.png)
 
 ---
 
@@ -80,7 +80,7 @@ Enhances visibility of individual cards:
 - Card corners are identified using local maxima and geometric extremes.
 - Output: quadrilaterals representing detected cards.
 
-![Card Shape Recognition](./img/Process_LocalMaxima.png)
+![Card Shape Recognition](report/img/Process_LocalMaxima.png)
 
 ---
 
@@ -90,7 +90,7 @@ Enhances visibility of individual cards:
 - A fixed patch is extracted from the card's top-left corner (rank symbol).  
 - Filtering is applied to select the central contours.  
 
-![Patch Examples](./img/K_patch.png) ![Patch Examples](./img/Q_patch.png) ![Patch Examples](./img/3_patch.png)
+![Patch Examples](report/img/K_patch.png) ![Patch Examples](report/img/Q_patch.png) ![Patch Examples](report/img/3_patch.png)
 
 ### Font and Dataset Generation
 - Synthetic dataset created using:
@@ -98,8 +98,8 @@ Enhances visibility of individual cards:
   - "Card Characters Font" for other values (A, J, Q, K, 2–9)
 - Each character rendered on a white canvas and augmented.
 
-![Generated Characters](./img/cards_values.png)
-![Augmented Characters](./img/K_generated.png) ![Augmented Characters](./img/Q_generated.png) ![Augmented Characters](./img/3_generated.png)
+![Generated Characters](report/img/cards_values.png)
+![Augmented Characters](report/img/K_generated.png) ![Augmented Characters](report/img/Q_generated.png) ![Augmented Characters](report/img/3_generated.png)
 
 ### Convolutional Neural Network
 - **Feature Extractor:** 3 Conv layers with ReLU + MaxPooling  
