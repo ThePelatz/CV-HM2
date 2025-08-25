@@ -20,7 +20,7 @@ The system captures video frames, detects individual cards, and identifies their
 ## Implementation Notes
 - Evaluations were conducted on a selected portion of the video using manually annotated ground truth via **CVAT**.
 - A separate Python script handles the deep learning model for card number recognition.
-- Large dependencies (like **libtorch** and **nlohmann_json**) are automatically downloaded during `build.sh`.
+- Json dependencies is automatically downloaded during `build.sh`.
 - Pre-trained models are also downloaded to avoid repository bloat.
 
 ---
