@@ -6,20 +6,9 @@ This project implements a **Computer Vision-based system for automatic card reco
 
 ---
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Implementation Notes](#implementation-notes)
-- [Pipeline Overview](#pipeline-overview)
-- [Preprocessing](#preprocessing)
-  - [Full Image Preprocessing](#full-image-preprocessing)
-  - [Individual Card Preprocessing](#individual-card-preprocessing)
-- [Card Shape Recognition](#card-shape-recognition)
-- [Card Value Recognition](#card-value-recognition)
-- [Results and Performance](#results-and-performance)
-- [Challenges and Limitations](#challenges-and-limitations)
-- [Future Improvements](#future-improvements)
-- [Build and Execution](#build-and-execution)
-- [Authors and Contributions](#authors-and-contributions)
+## Full Report
+
+You can view the complete project report [here](https://github.com/ThePelatz/CV-HM2/blob/master/report/report.pdf).
 
 ---
 
@@ -143,3 +132,9 @@ To build the project:
 
 ```bash
 sh build.sh
+```
+
+To run the project
+```bash
+./build/bin/cv_detection
+```
