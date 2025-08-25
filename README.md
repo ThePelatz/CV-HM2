@@ -69,8 +69,8 @@ Enhances visibility of individual cards:
 4. Gaussian blur  
 5. Otsu thresholding
 
-<img src="report/img/Process_Unprocessed_Card.png" width="30%">
-<img src="report/img/Process_Processed_Card.png" width="30%">
+<img src="report/img/Process_Unprocessed_Card.png" width="20%">
+<img src="report/img/Process_Processed_Card.png" width="20%">
 
 ---
 
