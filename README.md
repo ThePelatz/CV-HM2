@@ -44,10 +44,10 @@ Steps to detect card positions in frames:
 3. **Contour detection and filling:** Identify connected components and fill them.  
 4. **Morphological erosion:** Smooth contours and remove noise.
 
-<img src="report/img/Preprocess_WMask.png" width="30%">
-<img src="report/img/Prepocess_Dilatation.png" width="30%">
-<img src="report/img/Preprocess_FillPoly.png" width="30%">
-<img src="report/img/Preprocess_Erosion.png" width="30%">
+<img src="report/img/Preprocess_WMask.png" width="40%">
+<img src="report/img/Prepocess_Dilatation.png" width="40%">
+<img src="report/img/Preprocess_FillPoly.png" width="40%">
+<img src="report/img/Preprocess_Erosion.png" width="40%">
 
 ### Individual Card Preprocessing
 Enhances visibility of individual cards:
