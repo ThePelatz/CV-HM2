@@ -55,10 +55,10 @@ Steps to detect card positions in frames:
 3. **Contour detection and filling:** Identify connected components and fill them.  
 4. **Morphological erosion:** Smooth contours and remove noise.
 
-![Preprocessing Steps](report/img/Preprocess_WMask.png)
-![Dilation](report/img/Prepocess_Dilatation.png)
-![Filling](report/img/Preprocess_FillPoly.png)
-![Erosion](report/img/Preprocess_Erosion.png)
+<img src="report/img/Preprocess_WMask.png" width="30%">
+<img src="report/img/Prepocess_Dilatation.png" width="30%">
+<img src="report/img/Preprocess_FillPoly.png" width="30%">
+<img src="report/img/Preprocess_Erosion.png" width="30%">
 
 ### Individual Card Preprocessing
 Enhances visibility of individual cards:
@@ -69,8 +69,8 @@ Enhances visibility of individual cards:
 4. Gaussian blur  
 5. Otsu thresholding
 
-![Card Before](report/img/Process_Unprocessed_Card.png)
-![Card After](report/img/Process_Processed_Card.png)
+<img src="report/img/Process_Unprocessed_Card.png" width="30%">
+<img src="report/img/Process_Processed_Card.png" width="30%">
 
 ---
 
@@ -90,7 +90,7 @@ Enhances visibility of individual cards:
 - A fixed patch is extracted from the card's top-left corner (rank symbol).  
 - Filtering is applied to select the central contours.  
 
-![Patch Examples](report/img/K_patch.png) ![Patch Examples](report/img/Q_patch.png) ![Patch Examples](report/img/3_patch.png)
+<img src="report/img/K_patch.png" width="15%"> <img src="report/img/Q_patch.png" width="15%"> <img src="report/img/3_patch.png" width="15%">
 
 ### Font and Dataset Generation
 - Synthetic dataset created using:
@@ -98,8 +98,8 @@ Enhances visibility of individual cards:
   - "Card Characters Font" for other values (A, J, Q, K, 2–9)
 - Each character rendered on a white canvas and augmented.
 
-![Generated Characters](report/img/cards_values.png)
-![Augmented Characters](report/img/K_generated.png) ![Augmented Characters](report/img/Q_generated.png) ![Augmented Characters](report/img/3_generated.png)
+<img src="report/img/cards_values.png" width="30%">
+<img src="report/img/K_generated.png" width="15%"> <img src="report/img/Q_generated.png" width="15%"> <img src="report/img/3_generated.png" width="15%">
 
 ### Convolutional Neural Network
 - **Feature Extractor:** 3 Conv layers with ReLU + MaxPooling  
