@@ -1,7 +1,7 @@
 # Counting Card System for Blackjack
 
 
-**Collaborators:**  
+**Authors:**  
 - Zoren Martinez
 - Francesco Pivotto
 - Davide Baggio  
